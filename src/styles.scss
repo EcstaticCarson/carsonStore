@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/scss/bootstrap";
 
+.homeBg{
+    background-color: rgba(35, 118, 108, 0.50);
+    
+}
 
 .footerBg{
     background-color: grey;
@@ -16,4 +20,10 @@
     height: 100%;
     width: 60%;
     color: white;
+}
+
+.checkOut{
+    background-size: cover;
+    position: relative;
+    width: 100%;
 }

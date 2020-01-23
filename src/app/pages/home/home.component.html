@@ -1,21 +1,29 @@
-<div class="container">
-    <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows"
-        [showNavigationIndicators]="showNavigationIndicators">
-        <ng-template ngbSlide *ngFor="let image of images">
-            <div class="picsum-img-wrapper">
-                <img [src]="image" class="img-fluid" alt="Random slide">
-            </div>
-            <div class="carousel-caption">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 homeBg"></div>
+        <div class="col-8">
+            <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows"
+                [showNavigationIndicators]="showNavigationIndicators">
+                <ng-template ngbSlide *ngFor="let image of images">
+                    <div class="picsum-img-wrapper">
+                        <img [src]="image" class="img-fluid" alt="Random slide">
+                    </div>
+                    <!-- <div class="carousel-caption text-top">
                 <h3>No mouse navigation</h3>
                 <p>This carousel hides navigation arrows and indicators.</p>
-            </div>
-        </ng-template>
-    </ngb-carousel>
-    
-    <hr>
+            </div> -->
+                </ng-template>
+            </ngb-carousel>
 
-    <div class="btn-group" role="group" aria-label="Carousel toggle controls">
-        <button type="button" (click)="showNavigationArrows = !showNavigationArrows" class="btn btn-outline-dark btn-sm">Toggle navigation arrows</button>
-        <button type="button" (click)="showNavigationIndicators = !showNavigationIndicators" class="btn btn-outline-dark btn-sm">Toggle navigation indicators</button>
-      </div>
+            <hr>
+
+            <div class="btn-group d-flex justify-content-center" role="group" aria-label="Carousel toggle controls">
+                <button type="button" (click)="showNavigationArrows = !showNavigationArrows"
+                    class="btn btn-outline-dark btn-sm">Toggle navigation arrows</button>
+                <button type="button" (click)="showNavigationIndicators = !showNavigationIndicators"
+                    class="btn btn-outline-dark btn-sm">Toggle navigation indicators</button>
+            </div>
+        </div>
+        <div class="col-2 homeBg"></div>
+    </div>
 </div>

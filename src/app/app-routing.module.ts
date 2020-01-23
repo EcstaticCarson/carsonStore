@@ -28,7 +28,7 @@ const routes: Routes = [
   {path: 'about-us', component: AboutUsComponent},
   {path: 'accountSettings', component: AccountSettingsComponent},
   {path: 'check-out', component: CheckOutComponent},
-  {path: 'createAccount', component: CreateAccountComponent},
+  {path: 'create-account', component: CreateAccountComponent},
   {path: 'editProfile', component: EditProfileComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'sign-in', component: SignInComponent},

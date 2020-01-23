@@ -10,8 +10,8 @@ export class HomeComponent implements OnInit {
   showNavigationArrows = false;
   showNavigationIndicators = false;
   images = [
-    'assets/imageFolder/carouselPics/Mandalorian.jpg', 'assets/imageFolder/carouselPics/pictureTest1.png',
-    'assets/imageFolder/carouselPics/Mass-Effect.jpg', 'assets/imageFolder/carouselPics/joy.jpeg'
+    'assets/imageFolder/carouselPics/Mandalorian.jpg', 'assets/imageFolder/carouselPics/testPicture2.png',
+    'assets/imageFolder/carouselPics/MEPic2.png', 'assets/imageFolder/carouselPics/Cosplay2.png'
   ];
 
   constructor(config: NgbCarouselConfig) {
