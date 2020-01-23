@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
   showNavigationArrows = false;
   showNavigationIndicators = false;
   images = [
-    'assets/imageFolder/carouselPics/Mandalorian.jpg', 'assets/imageFolder/carouselPics/Fallout4PaladinDanse.jpg',
+    'assets/imageFolder/carouselPics/Mandalorian.jpg', 'assets/imageFolder/carouselPics/pictureTest1.png',
     'assets/imageFolder/carouselPics/Mass-Effect.jpg', 'assets/imageFolder/carouselPics/joy.jpeg'
   ];
 

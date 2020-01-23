@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
@@ -24,14 +25,17 @@ const routes: Routes = [
   {path: 'tools', component: ToolsComponent},
   {path: 'footer', component: FooterComponent},
   {path: 'header', component: HeaderComponent},
-  {path: 'aboutUs', component: AboutUsComponent},
+  {path: 'about-us', component: AboutUsComponent},
   {path: 'accountSettings', component: AccountSettingsComponent},
-  {path: 'checkOut', component: CheckOutComponent},
+  {path: 'check-out', component: CheckOutComponent},
   {path: 'createAccount', component: CreateAccountComponent},
   {path: 'editProfile', component: EditProfileComponent},
   {path: 'profile', component: ProfileComponent},
-  {path: 'signIn', component: SignInComponent},
-  {path: 'signOut', component: SignOutComponent},
+  {path: 'sign-in', component: SignInComponent},
+  {path: 'sign-out', component: SignOutComponent},
+  {path: '', redirectTo: '/home',
+    pathMatch: 'full'},
+    {path: '**', component: HomeComponent}
 
 ];
 

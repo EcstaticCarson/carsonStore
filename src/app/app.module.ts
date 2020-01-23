@@ -20,6 +20,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { SignOutComponent } from './pages/sign-out/sign-out.component';
 import { ToolsComponent } from './pages/tools/tools.component';
+import { NewModalComponent } from './new-modal/new-modal.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ToolsComponent } from './pages/tools/tools.component';
     ProfileComponent,
     SignInComponent,
     SignOutComponent,
-    ToolsComponent
+    ToolsComponent,
+    NewModalComponent,
   ],
   imports: [
     BrowserModule,

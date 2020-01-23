@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
+
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-new-modal',
+  templateUrl: './new-modal.component.html',
+  styleUrls: ['./new-modal.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class NewModalComponent implements OnInit {
   closeResult: string;
 
   constructor(private modalService: NgbModal) { }
-
-  ngOnInit() {
-  }
   open(content) {
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
@@ -20,7 +18,8 @@ export class HeaderComponent implements OnInit {
       this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
     });
   }
-
+  ngOnInit() {
+  }
   private getDismissReason(reason: any): string {
     if (reason === ModalDismissReasons.ESC) {
       return 'by pressing ESC';
@@ -30,5 +29,4 @@ export class HeaderComponent implements OnInit {
       return  `with: ${reason}`;
     }
   }
-
 }
