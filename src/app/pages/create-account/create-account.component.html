@@ -1,1 +1,51 @@
-<h1>I AM THE CAPTAIN NOW!!! GIVE ME MONEY!!!</h1>
+<div class="container">
+  
+    <fieldset>
+      <legend> Create an Account</legend>
+      <form [formGroup]="accountCreated" (ngSubmit)="submitForm()">
+          <div class="form-group">
+              <label for="userName">Username</label>
+              <input type="text" class="form-control" id="userName" formControlName="userName">
+              <!-- <small class="text-danger" *ngIf="userName.invalid && userName.touched">
+                  ** Username is invalid.
+              </small> -->
+          </div>
+          <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" formControlName="password">
+              <!-- <small class="text-danger" *ngIf="password.invalid && password.touched">
+                  ** Incorrect password. Please try again.
+              </small> -->
+          </div>
+          <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" class="form-control" id="emailAddress" formControlName="emailAddress">
+          </div>
+          <div class="form-group">
+            <label for="gender">Sex/Gender:</label>
+            <input type="text" class="form-control" id="gender" formControlName="gender">
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <input type="country" class="form-control" id="country" formControlName="country">
+          </div>
+          <div class="form-group">
+              <label for="city">City</label>
+              <input type="city" class="form-control" id="city" formControlName="city">
+          </div>
+          <div class="form-group">
+              <label for="streetZip">Street Address + Zip</label>
+              <input type="text" class="form-control" id="streetZip" formControlName="streetZip">
+          </div>
+
+
+          <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="savePassword" formControlName="savePassword">
+              <label class="form-check-label" for="savePassword">Save Password</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-secondary" (click)="cancelValue()">Cancel</button>
+      </form>
+    </fieldset>
+  
+  </div>
