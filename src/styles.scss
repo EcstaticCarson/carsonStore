@@ -22,3 +22,24 @@
     position: relative;
     width: 100%;
 }
+
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+    
+  }
+  .footer {
+    flex-shrink: 0;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+  }
