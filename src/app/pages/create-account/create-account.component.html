@@ -3,6 +3,10 @@
     <fieldset>
       <legend> Create an Account</legend>
       <form [formGroup]="accountCreated" (ngSubmit)="submitForm()">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control" id="fullName" formControlName="fullName">
+        </div>
           <div class="form-group">
               <label for="userName">Username</label>
               <input type="text" class="form-control" id="userName" formControlName="userName">
@@ -22,6 +26,10 @@
               <input type="email" class="form-control" id="emailAddress" formControlName="emailAddress">
           </div>
           <div class="form-group">
+            <label for="birth">Date of Birth</label>
+            <input type="date" class="form-control" id="birth" formControlName="birth">
+          </div>
+          <div class="form-group">
             <label for="gender">Sex/Gender:</label>
             <input type="text" class="form-control" id="gender" formControlName="gender">
           </div>
@@ -37,6 +45,15 @@
               <label for="streetZip">Street Address + Zip</label>
               <input type="text" class="form-control" id="streetZip" formControlName="streetZip">
           </div>
+          <div class="form-group">
+            <label for="secretQuestion">Secret Question</label>
+            <input type="text" class="form-control" id="secretQuestion" formControlName="secretQuestion">
+          </div>
+          <div class="form-group">
+            <label for="secretAnswer">Secret Answer</label>
+            <input type="text" class="form-control" id="secretAnswer" formControlName="secretAnswer">
+          </div>
+
 
           <button type="submit" class="btn btn-primary">Submit</button>
           <button type="button" class="btn btn-secondary" (click)="cancelValue()">Cancel</button>
