@@ -24,6 +24,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
 import { ProductdescComponent } from './views/productdesc/productdesc.component';
 import { ProductlistComponent } from './views/productlist/productlist.component';
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { ProductlistComponent } from './views/productlist/productlist.component'
     ModaldescComponent,
     ProductdescComponent,
     ProductlistComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
