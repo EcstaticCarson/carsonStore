@@ -5,10 +5,10 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-product-desc',
-  templateUrl: './product-desc.component.html',
-  styleUrls: ['./product-desc.component.scss']
+  templateUrl: './productdesc.component.html',
+  styleUrls: ['./productdesc.component.scss']
 })
-export class ProductDescComponent implements OnInit {
+export class ProductdescComponent implements OnInit {
   productDesc: IProduct;
   constructor(private dService: DataService, private route: ActivatedRoute) { }
 
