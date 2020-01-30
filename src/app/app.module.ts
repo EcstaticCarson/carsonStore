@@ -22,6 +22,8 @@ import { SignOutComponent } from './pages/sign-out/sign-out.component';
 import { ToolsComponent } from './pages/tools/tools.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
+import { ProductdescComponent } from './views/productdesc/productdesc.component';
+import { ProductlistComponent } from './views/productlist/productlist.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,8 @@ import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
     SignOutComponent,
     ToolsComponent,
     ModaldescComponent,
+    ProductdescComponent,
+    ProductlistComponent,
   ],
   imports: [
     BrowserModule,
