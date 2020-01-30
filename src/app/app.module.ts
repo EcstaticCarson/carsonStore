@@ -20,8 +20,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { SignOutComponent } from './pages/sign-out/sign-out.component';
 import { ToolsComponent } from './pages/tools/tools.component';
-import { NewModalComponent } from './new-modal/new-modal.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SignInComponent,
     SignOutComponent,
     ToolsComponent,
-    NewModalComponent,
+    ModaldescComponent,
   ],
   imports: [
     BrowserModule,
