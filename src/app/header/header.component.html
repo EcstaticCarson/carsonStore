@@ -31,7 +31,8 @@
             <h4>Check Out</h4>
         </a>
         <div class="form-inline my-2 my-lg-0">
-            <a id="cart" (click)="toggleList()"><i class="fa fa-shopping-cart"></i> Cart <span class="badge badge-info">{{cartCount}}</span></a>
+            <a id="cart" (click)="toggleList()"><i class="fa fa-shopping-cart"></i> Cart <span
+                    class="badge badge-info">{{cartCount}}</span></a>
         </div>
         <div class="container" *ngIf="showList">
             <div class="shopping-cart">
@@ -56,5 +57,5 @@
                 </ul>
                 <a href="#" class="btn btn-primary btn-block">Checkout</a>
             </div>
+        </div>
     </div>
-</div>
