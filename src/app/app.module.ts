@@ -23,7 +23,6 @@ import { ToolsComponent } from './pages/tools/tools.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
 import { ProductdescComponent } from './views/productdesc/productdesc.component';
-import { ProductlistComponent } from './views/productlist/productlist.component';
 import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
@@ -45,7 +44,6 @@ import { CardComponent } from './shared/card/card.component';
     ToolsComponent,
     ModaldescComponent,
     ProductdescComponent,
-    ProductlistComponent,
     CardComponent,
   ],
   imports: [

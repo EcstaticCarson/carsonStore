@@ -20,9 +20,9 @@ $cartQuantity = new BehaviorSubject<number>(this.cartQuantity);
   constructor() { }
 
   addItemsToCart(item: IProduct) {
-    const cartItem = this.cartItems.find(x => x.id === item.id);
-    if (cartItem) {
-      cartItem.quantity++;
+    const cartItems = this.cartItems.find(x => x.id === item.id);
+    if (cartItems) {
+      cartItems.quantity++;
     } else {
       item.quantity = 1;
       this.cartItems.push(item);

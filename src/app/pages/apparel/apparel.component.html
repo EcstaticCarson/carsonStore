@@ -1,9 +1,8 @@
 <div class="apparelColor">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col" *ngFor='let apparel of apparels'>
+            <div class="col-lg-3 center" *ngFor='let apparel of apparels'>
                 <app-card [item]="apparel"></app-card>
-                
             </div>
         </div>
     </div>
