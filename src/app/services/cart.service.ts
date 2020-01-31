@@ -13,7 +13,6 @@ public $cartItems = new BehaviorSubject<IProduct[]>(this.cartItems);
 
 cartTotal = 0;
 $cartTotal = new BehaviorSubject<number>(this.cartTotal);
-
 cartQuantity = 0;
 $cartQuantity = new BehaviorSubject<number>(this.cartQuantity);
 
@@ -32,6 +31,7 @@ $cartQuantity = new BehaviorSubject<number>(this.cartQuantity);
 
     this.cartTotal += +item.price;
     this.broadcastSubjects();
+    console.log('cartTotal is here', this.cartTotal);
 
     // this.$cartItems.next(this.cartItems);
     // this.$cartTotal.next(this.cartTotal);

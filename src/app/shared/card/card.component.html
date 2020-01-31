@@ -1,16 +1,15 @@
-<div class="card" style="width: 18rem;">
+<div class="card mb-5 mt-5" style="width: 18rem; height: 35rem;">
     <div class="card-body">
         <img class="img-fluid" [src]="item.img" alt="">
         <h5 class="card-title">{{item.pName}}</h5>
-        <p>{{item.pDesc}}</p>
-        <p>{{item.additionalInfo}}</p>
-
-        <a routerLink="/{{item.pNameURL}}/{{item.id}}" class="card-link">
-            {{item.price}}
-        </a>
-        <button class="btn btn-primary" (click)="addToCart(item)"> + </button>
-        <a class="card-link">
-            <!-- <app-modaldesc [product]='item'></app-modaldesc> -->
-        </a>
+        <p class="card-text">{{item.pDesc}}</p>
+        <p class="card-text">{{item.additionalInfo}}</p>
+        <p class="card-text">${{item.price}}</p>
+        
+        <div class="card-footer">
+            <!-- <button class="btn btn-primary btn-block" (click)="addToCart(item)"> Add to Cart </button> -->
+            <a class="card-link btn btn-primary btn-block" (click)="addToCart(item)"> Add to Cart</a>
+        </div>
+        <!-- <app-modaldesc [product]='item'></app-modaldesc> -->
     </div>
 </div>

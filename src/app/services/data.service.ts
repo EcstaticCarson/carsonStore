@@ -12,7 +12,7 @@ export class DataService {
       pName: 'Green Arrow',
       pDesc: 'Be the Vigilante to save a city',
       additionalInfo: 'From the TV show, Arrow',
-      price: '149.99',
+      price: '150',
       img: '/assets/imageFolder/Apparel/GreenArrow.png',
       quantity: 0
     },
@@ -21,7 +21,7 @@ export class DataService {
       pName: 'Splinter Cell',
       pDesc: 'Live in the world of Sam Fisher and covertly save the world',
       additionalInfo: 'From the video game, Splinter Cell',
-      price: '$349.99',
+      price: '350',
       img: '/assets/imageFolder/Apparel/SplinterCell.png',
       quantity: 0
     },
@@ -30,7 +30,7 @@ export class DataService {
       pName: 'Assassin Creed',
       pDesc: 'While I thought that I was learning how to live, I have been learning how to die',
       additionalInfo: 'From the video game series, Assassin\'s Creed',
-      price: '$99.99',
+      price: '100',
       img: '/assets/imageFolder/Apparel/AssassinsCreed.png',
       quantity: 0
     },
@@ -39,7 +39,7 @@ export class DataService {
       pName: 'BioShock Big Sister',
       pDesc: 'If you hear or see a Big Sister, best run',
       additionalInfo: 'From the video game, Bioshock 2',
-      price: '$129.99',
+      price: '130',
       img: '/assets/imageFolder/Apparel/BioshockBigSister.png',
       quantity: 0
     },
@@ -48,7 +48,7 @@ export class DataService {
       pName: 'Brotherhood of Steel',
       pDesc: 'We are the only salvation this tortured planet and its people have. Without us, humanity is sure to perish',
       additionalInfo: 'From the popular video game series, Fallout',
-      price: '$299.99',
+      price: '300',
       img: '/assets/imageFolder/Apparel/BrotherhoodofSteel.png',
       quantity: 0
     },
@@ -57,7 +57,7 @@ export class DataService {
       pName: 'Diablo\'s Malthiel',
       pDesc: 'The Angel of Death has come for you',
       additionalInfo: 'From the video game series, Diablo',
-      price: '$199.99',
+      price: '200',
       img: '/assets/imageFolder/Apparel/Diablo3Malthiel.png',
       quantity: 0
     },
@@ -66,7 +66,7 @@ export class DataService {
       pName: 'Aquamans Mera',
       pDesc: 'The absence of water is not my weakness. It\'s all of yours',
       additionalInfo: 'Character from the movie, Aquaman',
-      price: '$79.99',
+      price: '80',
       img: '/assets/imageFolder/Apparel/AquamanCera.png',
       quantity: 0
     },
@@ -75,7 +75,7 @@ export class DataService {
       pName: 'Predator',
       pDesc: 'Go and be the hunter, instead of the hunted.',
       additionalInfo: 'From the movie, Predator',
-      price: '$179.99',
+      price: '180',
       img: '/assets/imageFolder/Apparel/Predator.png',
       quantity: 0
     }
