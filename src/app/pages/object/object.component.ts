@@ -14,7 +14,7 @@ export class ObjectComponent implements OnInit {
       pDesc: 'Whether it be Naruto or an actual Shinobi, a ninja must always have one',
       additionalInfo: 'Popularly used by Naruto/Shinobi fans',
       price: '10',
-      img: 'src/assets/imageFolder/objects/CosplayObject.jpeg',
+      img: '/assets/imageFolder/objects/CosplayObject.jpeg',
       quantity: 0
     },
     {
@@ -23,7 +23,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'A warrior must always have a blade to carry',
         additionalInfo: 'Design can be made at the specific request',
         price: '40',
-        img: 'src/assets/imageFolder/objects/CosplaySwords.jpg',
+        img: '/assets/imageFolder/objects/CosplaySwords.jpg',
         quantity: 0
     },
     {
@@ -32,7 +32,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'Wielding a sword like Cloud takes strength! Do you have it?',
         additionalInfo: 'Famously used by Final Fantasy 7 character: Cloud',
         price: '70',
-        img: 'src/assets/imageFolder/objects/FF7CloudSword.jpg',
+        img: '/assets/imageFolder/objects/FF7CloudSword.jpg',
         quantity: 0
     },
     {
@@ -41,7 +41,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'They\'re pretty, deadly, and powerful. What more do you want?',
         additionalInfo: 'Seen more commonly in Elder Scroll Series',
         price: '70',
-        img: 'src/assets/imageFolder/objects/GlassDaggers.jpeg',
+        img: '/assets/imageFolder/objects/GlassDaggers.jpeg',
         quantity: 0
     },
     {
@@ -50,7 +50,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'Heroes never die!',
         additionalInfo: 'From the game Overwatch',
         price: '90',
-        img: 'src/assets/imageFolder/objects/MercyOverwatchObjects.jpg',
+        img: '/assets/imageFolder/objects/MercyOverwatchObjects.jpg',
         quantity: 0
     },
     {
@@ -59,7 +59,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'The grave cannot hold me - Reaper',
         additionalInfo: 'From the game Overwatch',
         price: '40',
-        img: 'src/assets/imageFolder/objects/ReaperGuns.jpg',
+        img: '/assets/imageFolder/objects/ReaperGuns.jpg',
         quantity: 0
     },
     {
@@ -68,7 +68,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'Wield the sword of the Lion of Azeroth',
         additionalInfo: 'From the video game series: Warcraft',
         price: '60',
-        img: 'src/assets/imageFolder/objects/WarcraftSword.jpg',
+        img: '/assets/imageFolder/objects/WarcraftSword.jpg',
         quantity: 0
     },
     {
@@ -77,7 +77,7 @@ export class ObjectComponent implements OnInit {
         pDesc: 'Wield the Sword of Time and vanquish evil!',
         additionalInfo: 'From the video game series: Legend of Zelda',
         price: '50',
-        img: 'src/assets/imageFolder/objects/ZeldaSword.jpg',
+        img: '/assets/imageFolder/objects/ZeldaSword.jpg',
         quantity: 0
     }
   ];
