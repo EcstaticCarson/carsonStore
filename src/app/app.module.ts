@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
-import { AccountSettingsComponent } from './pages/account-settings/account-settings.component';
 import { ApparelComponent } from './pages/apparel/apparel.component';
 import { CheckOutComponent } from './pages/check-out/check-out.component';
 import { CreateAccountComponent } from './pages/create-account/create-account.component';
@@ -31,7 +30,6 @@ import { CardComponent } from './shared/card/card.component';
     HeaderComponent,
     FooterComponent,
     AboutUsComponent,
-    AccountSettingsComponent,
     ApparelComponent,
     CheckOutComponent,
     CreateAccountComponent,
