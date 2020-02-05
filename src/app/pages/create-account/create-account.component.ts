@@ -32,4 +32,31 @@ export class CreateAccountComponent implements OnInit {
       secretAnswer: [null, Validators.required]
     });
   }
+  accountCheck() {
+    if (this.createForm.invalid) {
+      alert('Error! You must fill in the blank spaces to have an account created.');
+    } else {
+      const f: any = {
+        userName: this ,
+        password: this
+      };
+      alert('Congratz! Welcome to the store and please take a look at your profile.');
+      this.createForm.reset();
+      this.router.navigate(['profile']);
+    }
+  }
+  // submitForm() {
+  //   if (this.signInForm.invalid) {
+  //     alert('Error! Please fill in blank spaces!');
+  //   } else {
+  //     const f: any = {
+  //       userName: this.signInForm.value.userName,
+  //       password: this.signInForm.value.password
+  //     };
+  //     alert('Success! Welcome and enjoy shopping!');
+  //     this.signInForm.reset();
+  //     this.router.navigate(['home']);
+  //     console.log(f);
+  //   }
+  // }
 }
