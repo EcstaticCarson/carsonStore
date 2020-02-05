@@ -5,7 +5,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
-import { AccountSettingsComponent } from './pages/account-settings/account-settings.component';
 import { ApparelComponent } from './pages/apparel/apparel.component';
 import { CheckOutComponent } from './pages/check-out/check-out.component';
 import { CreateAccountComponent } from './pages/create-account/create-account.component';
@@ -26,7 +25,6 @@ const routes: Routes = [
   {path: 'footer', component: FooterComponent},
   {path: 'header', component: HeaderComponent},
   {path: 'about-us', component: AboutUsComponent},
-  {path: 'accountSettings', component: AccountSettingsComponent},
   {path: 'check-out', component: CheckOutComponent},
   {path: 'create-account', component: CreateAccountComponent},
   {path: 'editProfile', component: EditProfileComponent},
