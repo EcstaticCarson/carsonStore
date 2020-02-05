@@ -6,6 +6,10 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root'
 })
 export class DataService {
+
+  signIn = false;
+  signOut = true;
+
   products: IProduct[] = [
     {
       id: '1',

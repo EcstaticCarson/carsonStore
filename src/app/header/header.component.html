@@ -25,7 +25,14 @@
             <h4>Register</h4>
         </a>
         <a routerLink="/sign-in" routerLinkActive="active">
-            <h4>Sign In</h4>
+            <h4>
+                {{signIn ? "Sign In" : "Sign Out"}}
+                <!-- if (signIn == false){
+                    Sign In
+                } else {
+                    Sign Out
+                } -->
+            </h4>
         </a>
         <a routerLink="/check-out" routerLinkActive="active">
             <h4>Check Out</h4>

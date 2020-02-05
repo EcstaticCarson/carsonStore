@@ -1,7 +1,13 @@
-// .theSpot{
-//     bottom: 0;
-//     position: absolute;
-// }
+.theSpot{
+    bottom: 0;
+    // position: fixed;
+    width: 100%;
+}
+
+.footerBody{
+    display: flex;
+    align-items: flex-end;
+}
 
 .moveCenter{
     display: flex;
@@ -12,3 +18,11 @@
 .smallText{
     font-size: 14px;
 }
+
+// position: fixed;
+//   left: 0;
+//   bottom: 0;
+//   width: 100%;
+//   background-color: red;
+//   color: white;
+//   text-align: center;
