@@ -14,6 +14,7 @@ export class HeaderComponent implements OnInit {
   cartItems: IProduct[] = [];
   showList = false;
   cartTotal = 0;
+  signIn: boolean;
   // closeResult: string;
 
   constructor(private modalService: NgbModal, private cartService: CartService, private dataService: DataService) { }

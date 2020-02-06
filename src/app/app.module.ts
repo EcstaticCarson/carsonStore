@@ -23,6 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModaldescComponent } from './shared/modaldesc/modaldesc.component';
 import { ProductdescComponent } from './views/productdesc/productdesc.component';
 import { CardComponent } from './shared/card/card.component';
+import { ForgetPassComponent } from './pages/forget-pass/forget-pass.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { CardComponent } from './shared/card/card.component';
     ModaldescComponent,
     ProductdescComponent,
     CardComponent,
+    ForgetPassComponent,
   ],
   imports: [
     BrowserModule,

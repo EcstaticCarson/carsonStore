@@ -15,6 +15,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { SignOutComponent } from './pages/sign-out/sign-out.component';
 import { ToolsComponent } from './pages/tools/tools.component';
+import { ForgetPassComponent } from './pages/forget-pass/forget-pass.component';
 
 
 const routes: Routes = [
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path: 'profile', component: ProfileComponent},
   {path: 'sign-in', component: SignInComponent},
   {path: 'sign-out', component: SignOutComponent},
+  {path: 'forget-pass', component: ForgetPassComponent},
   {path: '', redirectTo: '/home',
     pathMatch: 'full'},
     {path: '**', component: HomeComponent}

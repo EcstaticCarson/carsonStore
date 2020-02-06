@@ -26,7 +26,7 @@
         </a>
         <a routerLink="/sign-in" routerLinkActive="active">
             <h4>
-                {{signIn ? "Sign In" : "Sign Out"}}
+                {{signIn ? "Sign Out" : "Sign In"}}
                 <!-- if (signIn == false){
                     Sign In
                 } else {
@@ -34,9 +34,9 @@
                 } -->
             </h4>
         </a>
-        <a routerLink="/check-out" routerLinkActive="active">
+        <!-- <a routerLink="/check-out" routerLinkActive="active">
             <h4>Check Out</h4>
-        </a>
+        </a> -->
         <div class="form-inline my-2 my-lg-0">
             <a id="cart" (click)="toggleList()"><i class="fa fa-shopping-cart"></i> Cart <span
                     class="badge badge-info">{{cartCount}}</span></a>

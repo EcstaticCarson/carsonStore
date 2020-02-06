@@ -37,12 +37,13 @@ export class CreateAccountComponent implements OnInit {
       alert('Error! You must fill in the blank spaces to have an account created.');
     } else {
       const f: any = {
-        userName: this ,
-        password: this
+        userName: this.createForm.value.userName,
+        password: this.createForm.value.password
       };
       alert('Congratz! Welcome to the store and please take a look at your profile.');
       this.createForm.reset();
-      this.router.navigate(['profile']);
+      this.router.navigate(['home']);
+      console.log(f);
     }
   }
   // submitForm() {

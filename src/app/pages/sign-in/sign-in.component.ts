@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, Validators, FormBuilder, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-sign-in',
@@ -12,13 +13,14 @@ export class SignInComponent implements OnInit {
   link: string;
   // this can be coming from the API, service, json file, or other resources
   // myUser = { fName: 'Carson', lName: 'Huber', mName: 'Maxwell', hasMiddleName: true };
-  constructor(private fb: FormBuilder, private router: Router) { }
+  constructor(private fb: FormBuilder, private router: Router, private modalService: NgbModal) { }
   // get fName() { return this.signInForm.get('fName'); }
   // get lName() { return this.signInForm.get('lName'); }
   // get mName() { return this.signInForm.get('mName'); }
 
   ngOnInit() {
     this.buildForm();
+    // this.modalService.open();
   }
 
   buildForm() {
