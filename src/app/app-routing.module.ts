@@ -33,8 +33,7 @@ const routes: Routes = [
   {path: 'sign-in', component: SignInComponent},
   {path: 'sign-out', component: SignOutComponent},
   {path: 'forget-pass', component: ForgetPassComponent},
-  {path: '', redirectTo: '/home',
-    pathMatch: 'full'},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
     {path: '**', component: HomeComponent}
 
 ];
